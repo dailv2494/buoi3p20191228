@@ -1,0 +1,7 @@
+{% for st in students %}
+<span>{{st.studentNo}},{{st.name}},{{st.adress}}</span>
+<a href="">Sua</a>
+<br>
+{% endfor %}
+
+<a href="{% url 'student-create' %}">Them moi hoc sinh</a>
